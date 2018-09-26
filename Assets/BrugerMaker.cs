@@ -22,6 +22,7 @@ public class BrugerMaker : MonoBehaviour {
         burgerParts.Add(Burger);
         burgerParts.Add(Cheese);
         burgerParts.Add(Tomato);
+        burgerParts.Add(BunTop);
 
 
         
@@ -36,7 +37,7 @@ public class BrugerMaker : MonoBehaviour {
 
             myBurger = randomBurger();
 
-            render(myBurger, 0, i * 1.25f);
+            render(myBurger, 0, 2 + i * 1.25f);
         }
         
 
